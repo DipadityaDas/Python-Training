@@ -9,14 +9,14 @@ print(squares.pop(4))
 print(squares)
 
 # remove an arbitrary item
-# Output: (1, 1)
+# Output: (5, 25)
 print(squares.popitem())
 
 # Output: {2: 4, 3: 9, 5: 25}
 print(squares)
 
 # delete a particular item
-del squares[5]
+del squares[3]
 
 # Output: {2: 4, 3: 9}
 print(squares)

@@ -10,7 +10,7 @@ odd[1:4] = [3, 5, 7]
 print(odd)
 
 odd.append(9)
-# Output: [1, 3, 5, 7]
+# Output: [1, 3, 5, 7, 9]
 print(odd)
 odd.extend([11, 13])
 # Output: [1, 3, 5, 7, 9, 11, 13]
@@ -29,4 +29,7 @@ odd.insert(1, 3)
 print(odd)
 odd[2:2] = [5, 7]
 # Output: [1, 3, 5, 7, 9]
+print(odd)
+
+odd.append([1,3])
 print(odd)
