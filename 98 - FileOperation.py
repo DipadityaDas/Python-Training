@@ -1,6 +1,7 @@
 file_name = input("Enter file name: ")
 
 fh = open(file_name)
+print(type(fh))
 count = 0
 lst = list
 for line in fh:
